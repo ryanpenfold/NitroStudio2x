@@ -25,8 +25,8 @@
         private void InitializeComponent() {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SequenceRecorder));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.loopsBox = new System.Windows.Forms.NumericUpDown();
             this.fadeBox = new System.Windows.Forms.CheckBox();
             this.exportButton = new System.Windows.Forms.Button();
@@ -51,16 +51,6 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(301, 48);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
-            // label1
-            // 
-            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Location = new System.Drawing.Point(3, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(204, 19);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Number Of Loops:";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            // 
             // label2
             // 
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -70,6 +60,16 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Fade Out:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            // 
+            // label1
+            // 
+            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label1.Location = new System.Drawing.Point(3, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(204, 19);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Number Of Loops:";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
             // loopsBox
             // 
@@ -111,6 +111,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(315, 97);
             this.Controls.Add(this.exportButton);
             this.Controls.Add(this.tableLayoutPanel1);

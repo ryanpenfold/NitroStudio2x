@@ -25,10 +25,10 @@
         private void InitializeComponent() {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(WaveMapper));
             this.mapGrid = new System.Windows.Forms.DataGridView();
-            this.finishedButton = new System.Windows.Forms.Button();
             this.playColumn = new System.Windows.Forms.DataGridViewButtonColumn();
             this.waveId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.waveArchive = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.finishedButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.mapGrid)).BeginInit();
             this.SuspendLayout();
             // 
@@ -49,18 +49,6 @@
             this.mapGrid.Name = "mapGrid";
             this.mapGrid.Size = new System.Drawing.Size(541, 268);
             this.mapGrid.TabIndex = 0;
-            // 
-            // finishedButton
-            // 
-            this.finishedButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.finishedButton.Location = new System.Drawing.Point(12, 287);
-            this.finishedButton.Name = "finishedButton";
-            this.finishedButton.Size = new System.Drawing.Size(541, 23);
-            this.finishedButton.TabIndex = 1;
-            this.finishedButton.Text = "Finished";
-            this.finishedButton.UseVisualStyleBackColor = true;
-            this.finishedButton.Click += new System.EventHandler(this.finishedButton_Click);
             // 
             // playColumn
             // 
@@ -85,10 +73,23 @@
             this.waveArchive.HeaderText = "Wave Archive";
             this.waveArchive.Name = "waveArchive";
             // 
+            // finishedButton
+            // 
+            this.finishedButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.finishedButton.Location = new System.Drawing.Point(12, 287);
+            this.finishedButton.Name = "finishedButton";
+            this.finishedButton.Size = new System.Drawing.Size(541, 23);
+            this.finishedButton.TabIndex = 1;
+            this.finishedButton.Text = "Finished";
+            this.finishedButton.UseVisualStyleBackColor = true;
+            this.finishedButton.Click += new System.EventHandler(this.finishedButton_Click);
+            // 
             // WaveMapper
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(565, 322);
             this.Controls.Add(this.finishedButton);
             this.Controls.Add(this.mapGrid);

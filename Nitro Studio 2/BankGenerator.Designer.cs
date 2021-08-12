@@ -25,13 +25,13 @@
         private void InitializeComponent() {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BankGenerator));
             this.instruments = new System.Windows.Forms.DataGridView();
-            this.label2 = new System.Windows.Forms.Label();
-            this.createBnk = new System.Windows.Forms.Button();
             this.play = new System.Windows.Forms.DataGridViewButtonColumn();
             this.bank = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.instrument = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.newId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.waveArchiveMode = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.label2 = new System.Windows.Forms.Label();
+            this.createBnk = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.instruments)).BeginInit();
             this.SuspendLayout();
             // 
@@ -40,6 +40,7 @@
             this.instruments.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.instruments.BackgroundColor = System.Drawing.Color.Teal;
             this.instruments.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.instruments.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.play,
@@ -51,29 +52,6 @@
             this.instruments.Name = "instruments";
             this.instruments.Size = new System.Drawing.Size(523, 274);
             this.instruments.TabIndex = 3;
-            // 
-            // label2
-            // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.Location = new System.Drawing.Point(12, 9);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(523, 22);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Instruments:";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // createBnk
-            // 
-            this.createBnk.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.createBnk.Location = new System.Drawing.Point(15, 314);
-            this.createBnk.Name = "createBnk";
-            this.createBnk.Size = new System.Drawing.Size(523, 23);
-            this.createBnk.TabIndex = 4;
-            this.createBnk.Text = "Create Bank And Wave Archive";
-            this.createBnk.UseVisualStyleBackColor = true;
-            this.createBnk.Click += new System.EventHandler(this.CreateBnk_Click);
             // 
             // play
             // 
@@ -116,10 +94,35 @@
             "Reference Original Wave Archive"});
             this.waveArchiveMode.Name = "waveArchiveMode";
             // 
+            // label2
+            // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label2.Location = new System.Drawing.Point(12, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(523, 22);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Instruments:";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // createBnk
+            // 
+            this.createBnk.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.createBnk.Location = new System.Drawing.Point(15, 314);
+            this.createBnk.Name = "createBnk";
+            this.createBnk.Size = new System.Drawing.Size(523, 23);
+            this.createBnk.TabIndex = 4;
+            this.createBnk.Text = "Create Bank And Wave Archive";
+            this.createBnk.UseVisualStyleBackColor = true;
+            this.createBnk.Click += new System.EventHandler(this.CreateBnk_Click);
+            // 
             // BankGenerator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(552, 343);
             this.Controls.Add(this.createBnk);
             this.Controls.Add(this.instruments);
