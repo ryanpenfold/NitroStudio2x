@@ -10,6 +10,3 @@ SoundIO: https://github.com/Gota7/GotaSoundIO
 Sound Bank: https://github.com/Gota7/GotaSoundBank
 
 Sequence Lib: https://github.com/Gota7/GotaSequenceLib
-
-Please see the website here:
-https://cockandballtorture.godaddysites.com
