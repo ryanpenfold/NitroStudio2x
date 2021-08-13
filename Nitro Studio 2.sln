@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nitro Studio 2", "Nitro Studio 2\Nitro Studio 2.csproj", "{BF551FB5-A4CE-4F6D-A8F1-3893302F4581}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DBF81EB2-7016-465B-8A95-3F376E439DB0} = {DBF81EB2-7016-465B-8A95-3F376E439DB0}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NitroFileLoader", "NitroFileLoader\NitroFileLoader.csproj", "{132D5DA0-BD98-4FCB-9A9C-73556C16B2C0}"
 EndProject
@@ -44,7 +47,9 @@ Global
 		{2642E217-5595-4E4B-9B6D-F5CFD937EB25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2642E217-5595-4E4B-9B6D-F5CFD937EB25}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BD16D3DB-EEE2-40D1-B1D9-B28F60BDBF62}.Debug|Any CPU.ActiveCfg = Debug
+		{BD16D3DB-EEE2-40D1-B1D9-B28F60BDBF62}.Debug|Any CPU.Build.0 = Debug
 		{BD16D3DB-EEE2-40D1-B1D9-B28F60BDBF62}.Release|Any CPU.ActiveCfg = Release
+		{BD16D3DB-EEE2-40D1-B1D9-B28F60BDBF62}.Release|Any CPU.Build.0 = Release
 		{DBF81EB2-7016-465B-8A95-3F376E439DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DBF81EB2-7016-465B-8A95-3F376E439DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBF81EB2-7016-465B-8A95-3F376E439DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
