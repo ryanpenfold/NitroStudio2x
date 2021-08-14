@@ -1,5 +1,6 @@
 # Nitro Studio 2 Deluxe
-If Nitro Studio was so good, why isn't there a Nitro Studio 2 Deluxe? Well it was so good so now there's a 2nd one that's even better. It's a lot easier to use over the original and has a ton of new features! Try it out!
+Nitro Studio 2 Deluxe is a soon-to-be Deluxe fork of Nitro Studio 2!
+Our Goal is to fix bugs that was in the original and to add some quality of life improvements!
 
 # Dependencies
 This tool requires my SoundIO, Sound Bank and Sequence libraries.
@@ -9,6 +10,3 @@ SoundIO: https://github.com/Gota7/GotaSoundIO
 Sound Bank: https://github.com/Gota7/GotaSoundBank
 
 Sequence Lib: https://github.com/Gota7/GotaSequenceLib
-
-Please see the website here:
-https://cockandballtorture.godaddysites.com
