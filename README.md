@@ -1,9 +1,9 @@
-# Nitro Studio 2 Deluxe
-Nitro Studio 2 Deluxe is a soon-to-be Deluxe fork of Nitro Studio 2!
-Our Goal is to fix bugs that was in the original and to add some quality of life improvements!
+# Nitro Studio 2x
+Nitro Studio 2x is a continuation of Nitro Studio 2 Deluxe!
+The goal of this project is primarily to improve upon Nitro Studio 2 Deluxe, making it more usable for editing SDAT files.
 
 # Dependencies
-This tool requires my SoundIO, Sound Bank and Sequence libraries.
+This tool requires Gota7's SoundIO, Sound Bank and Sequence libraries.
 
 SoundIO: https://github.com/Gota7/GotaSoundIO
 
